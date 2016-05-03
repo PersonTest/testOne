@@ -38,6 +38,9 @@ namespace ConsoleApplication1
             Console.WriteLine("can live");
         }
     }
+    /// <summary>
+    /// 派生类
+    /// </summary>
     public class animal : Biology
     {
         public override void canlive()
