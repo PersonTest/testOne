@@ -28,6 +28,9 @@ namespace ConsoleApplication1
             Console.ReadKey();
         }
     }
+    /// <summary>
+    /// 基类方法
+    /// </summary>
     public abstract class Biology
     {
         public virtual void canlive()
