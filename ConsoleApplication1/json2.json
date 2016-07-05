@@ -1,0 +1,409 @@
+﻿{
+  "id": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+  "name": "MK Community DashBoard Service Internal",
+  "timestamp": 1466155801629,
+  "order": [
+    "522c83e2-6a1f-f589-0ab1-d7f87f0c8c51",
+    "710e8abd-3416-3e5c-3f6c-cd6e5371ad6d",
+    "0d24ec9d-b7c4-e4f3-1b25-b38fa6ba2e72",
+    "61cd8385-9185-29bc-ad14-77a9f512a247",
+    "87b6f330-d22f-5cc2-fb89-bca761a23942",
+    "37f2749a-1058-9744-79b8-5de99fdb4fed",
+    "dd00c0f0-8027-f17a-5f3e-ef4c426c9ab5",
+    "6790e9f0-6444-47e7-8bb2-f9d47ad9724b",
+    "75774139-913a-3632-160b-3a855592f67f",
+    "fcedf229-7530-be4b-fe4e-436570160cc0",
+    "8992c0cf-16ff-2373-9a4c-7b3a13547068",
+    "c42b1e75-ef09-1a23-ff6e-2635f96fbc32"
+  ],
+  "owner": 0,
+  "hasRequests": true,
+  "requests": [
+    {
+      "id": "0d24ec9d-b7c4-e4f3-1b25-b38fa6ba2e72",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/Advertisement/delete",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "POST",
+      "data": [
+        {
+          "key": "id",
+          "value": "{{AdvertisementID}}",
+          "type": "text"
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466335231695,
+      "name": "DeleteAdvertisement",
+      "description": "delete a advertisement api",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    },
+    {
+      "id": "37f2749a-1058-9744-79b8-5de99fdb4fed",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/Advertisement",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "PUT",
+      "data": [
+        {
+          "key": "id",
+          "value": "4",
+          "type": "text"
+        },
+        {
+          "key": "title",
+          "value": "testinfo123",
+          "type": "text"
+        },
+        {
+          "key": "resourceId",
+          "value": "",
+          "type": "text"
+        },
+        {
+          "key": "targetType",
+          "value": "ArticleID",
+          "type": "text"
+        },
+        {
+          "key": "targetId",
+          "value": "1b10960404e44ef2a2694455cc43a8b7",
+          "type": "text"
+        },
+        {
+          "key": "targetUrl",
+          "value": "",
+          "type": "text"
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466158267763,
+      "name": "UpdateAdvertisement",
+      "description": "Update advertisement",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    },
+    {
+      "id": "522c83e2-6a1f-f589-0ab1-d7f87f0c8c51",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/Advertisement",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "POST",
+      "data": [
+        {
+          "key": "title",
+          "value": "test",
+          "type": "text"
+        },
+        {
+          "key": "resourceId",
+          "value": "{{Test_ResourceID}}",
+          "type": "text"
+        },
+        {
+          "key": "targetType",
+          "value": "ArticleID",
+          "type": "text"
+        },
+        {
+          "key": "targetId",
+          "value": "{{Test_TargetID}}",
+          "type": "text"
+        },
+        {
+          "key": "targetUrl",
+          "value": "",
+          "type": "text"
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466323418918,
+      "name": "CreateAdvertisement",
+      "description": "Create a advertisement",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    },
+    {
+      "id": "61cd8385-9185-29bc-ad14-77a9f512a247",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/Advertisement",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "GET",
+      "data": null,
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466157326160,
+      "name": "QueryAdvertisement",
+      "description": "Get advertisement list",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    },
+    {
+      "id": "6790e9f0-6444-47e7-8bb2-f9d47ad9724b",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/Advertisement/Publish",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "PUT",
+      "data": [
+        {
+          "key": "advertisements",
+          "value": "List<PublishAdvertisementModel>",
+          "type": "text"
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466323897244,
+      "name": "PublishAdvertisement",
+      "description": "Set advertisement publish and display order",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    },
+    {
+      "id": "710e8abd-3416-3e5c-3f6c-cd6e5371ad6d",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/Advertisement",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "DELETE",
+      "data": [
+        {
+          "key": "Id",
+          "value": "{{AdvertisementID}}",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466323472093,
+      "name": "DeleteAdvertisement",
+      "description": "delete a advertisement api",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    },
+    {
+      "id": "75774139-913a-3632-160b-3a855592f67f",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\nContent-Type: application/json\n",
+      "url": "http://localhost:6194/v1/Advertisement/Publish/put",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "POST",
+      "data": [ ],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466341579512,
+      "name": "PublishAdvertisement",
+      "description": "Set advertisement publish and display order",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ],
+      "rawModeData": "{\"Advertisements\":[{\"Id\":5,\"IsPublish\":true,\"DisplayIndex\":1}]}"
+    },
+    {
+      "id": "87b6f330-d22f-5cc2-fb89-bca761a23942",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/Advertisement/:Id/Detail",
+      "preRequestScript": "",
+      "pathVariables": {
+        "Id": "4"
+      },
+      "method": "GET",
+      "data": null,
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466158265780,
+      "name": "FindAdvertisementDetail",
+      "description": "Get advertisement info",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    },
+    {
+      "id": "8992c0cf-16ff-2373-9a4c-7b3a13547068",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/SearchTerm",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "PUT",
+      "data": [
+        {
+          "key": "searchTerms",
+          "value": "a,b,c,d,e,f,g,h,i",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466344840988,
+      "name": "UpdateSearchTerm",
+      "description": "Update SearchTerm api",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    },
+    {
+      "id": "c42b1e75-ef09-1a23-ff6e-2635f96fbc32",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/SearchTerm/put",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "POST",
+      "data": [
+        {
+          "key": "searchTerms",
+          "value": "List<string>",
+          "type": "text"
+        },
+        {
+          "key": "_SubsidiaryCode",
+          "value": "string",
+          "type": "text"
+        },
+        {
+          "key": "_ClientKey",
+          "value": "string",
+          "type": "text"
+        },
+        {
+          "key": "_ClientIdentity",
+          "value": "string",
+          "type": "text"
+        },
+        {
+          "key": "_UserName",
+          "value": "string",
+          "type": "text"
+        },
+        {
+          "key": "_Culture",
+          "value": "string",
+          "type": "text"
+        },
+        {
+          "key": "_UICulture",
+          "value": "string",
+          "type": "text"
+        },
+        {
+          "key": "_Timezone",
+          "value": "string",
+          "type": "text"
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466324003202,
+      "name": "UpdateSearchTerm",
+      "description": "Update SearchTerm api",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    },
+    {
+      "id": "dd00c0f0-8027-f17a-5f3e-ef4c426c9ab5",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/Advertisement/put",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "POST",
+      "data": [
+        {
+          "key": "id",
+          "value": "{{AdvertisementID}}",
+          "type": "text"
+        },
+        {
+          "key": "title",
+          "value": "{{Title}}",
+          "type": "text"
+        },
+        {
+          "key": "resourceId",
+          "value": "{{ResourceID}}",
+          "type": "text"
+        },
+        {
+          "key": "targetType",
+          "value": "ArticleID",
+          "type": "text"
+        },
+        {
+          "key": "targetId",
+          "value": "{{TargetID}}",
+          "type": "text"
+        },
+        {
+          "key": "targetUrl",
+          "value": "",
+          "type": "text"
+        }
+      ],
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466323696900,
+      "name": "UpdateAdvertisement",
+      "description": "Update advertisement",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    },
+    {
+      "id": "fcedf229-7530-be4b-fe4e-436570160cc0",
+      "headers": "Accept: application/json\nAuthorization: Bearer 1C9BB539-DD6B-4B4A-AD35-068917F7D3A4\n",
+      "url": "http://localhost:6194/v1/SearchTerm",
+      "preRequestScript": "",
+      "pathVariables": { },
+      "method": "GET",
+      "data": null,
+      "dataMode": "params",
+      "version": 2,
+      "tests": "",
+      "currentHelper": "normal",
+      "helperAttributes": { },
+      "time": 1466324336889,
+      "name": "QuerySearchTerm",
+      "description": "Query hot search term",
+      "collectionId": "86a5701e-cdc9-cc1c-9d91-0853dccb4685",
+      "responses": [ ]
+    }
+  ]
+}
